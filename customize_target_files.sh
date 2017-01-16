@@ -11,3 +11,7 @@ rm -rf out/target_files/SYSTEM/vendor/preinstall
 
 #Added device features
 cp -f other/surnia.xml out/target_files/SYSTEM/etc/device_features
+
+#Added multi cust variants for miui
+rm -rf out/target_files/DATA/miui/cust
+cp -rf other/miui out/target_files/DATA/
