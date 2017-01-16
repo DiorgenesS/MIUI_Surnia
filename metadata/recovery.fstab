@@ -1,0 +1,11 @@
+/system	ext4	/dev/block/platform/soc.0/by-name/system
+/data	f2fs	/dev/block/platform/soc.0/by-name/userdata
+/cache	auto	/dev/block/platform/soc.0/by-name/cache
+/boot	emmc	/dev/block/platform/soc.0/by-name/boot
+/recovery	emmc	/dev/block/platform/soc.0/by-name/recovery
+/persist	ext4	/dev/block/platform/soc.0/by-name/persist
+/firmware	ext4	/dev/block/platform/soc.0/by-name/modem
+/misc	emmc	/dev/block/platform/soc.0/by-name/misc
+		
+/external_sd	auto	/dev/block/mmcblk1p1
+/usb_otg	auto	/dev/block/sda1
