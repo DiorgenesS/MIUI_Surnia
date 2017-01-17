@@ -2,9 +2,9 @@
 /data	f2fs	/dev/block/bootdevice/by-name/userdata
 /cache	auto	/dev/block/bootdevice/by-name/cache
 /boot	emmc	/dev/block/bootdevice/by-name/boot
-/recovery	emmc	/dev/block/bootdevice/recovery
-/persist	ext4	/dev/block/bootdevice/persist
-/firmware	ext4	/dev/block/bootdevice/modem
+/recovery	emmc	/dev/block/bootdevice/by-name/recovery
+/persist	ext4	/dev/block/bootdevice/by-name/persist
+/firmware	ext4	/dev/block/bootdevice/by-name/modem
 /misc	emmc	/dev/block/bootdevice/by-name/misc
 
 		
