@@ -7,7 +7,6 @@ private-phone-apps := \
 	BluetoothExt \
 	CertInstaller \
 	KeyChain \
-	LatinIME \
 	LiveWallpapers \
 	PacProcessor \
 	PicoTts \
@@ -15,8 +14,7 @@ private-phone-apps := \
 	Stk \
 	telresources \
 	TimeService \
-	WAPPushManager \
-	webview 
+	WAPPushManager 
 
 private-phone-priv-apps := \
 	AudioFX \
