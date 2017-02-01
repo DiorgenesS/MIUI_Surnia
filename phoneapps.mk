@@ -5,6 +5,7 @@ private-phone-apps := \
 	BasicDreams \
 	Bluetooth \
 	BluetoothExt \
+	BluetoothMidiService \
 	CertInstaller \
 	KeyChain \
 	LiveWallpapers \
@@ -14,6 +15,7 @@ private-phone-apps := \
 	Stk \
 	telresources \
 	TimeService \
+	UserDictionaryProvider \
 	WAPPushManager 
 
 private-phone-priv-apps := \
