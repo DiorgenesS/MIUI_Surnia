@@ -166,3 +166,10 @@ adb.network.port              u:object_r:adbtcp_prop:s0
 recovery.perf.mode            u:object_r:recovery_prop:s0
 adb.secure                    u:object_r:recovery_prop:s0
 cm.userinit.active            u:object_r:userinit_prop:s0
+#line 1 "miui/device/common/sepolicy/common/property_contexts"
+# ctl. properties
+ctl.mcd_init            u:object_r:ctl_mcd_prop:s0
+persist.fastboot.       u:object_r:system_prop:s0
+
+# secureboot. properties
+secureboot.             u:object_r:secureboot_prop:s0
