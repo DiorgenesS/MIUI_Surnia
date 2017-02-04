@@ -36,5 +36,4 @@ private-phone-priv-apps := \
 	SharedStorageBackup \
 	Shell \
 	Snap \
-	StatementService \
-	TeleService 
+	StatementService 
