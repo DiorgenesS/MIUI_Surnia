@@ -10,6 +10,9 @@ mkdir -p $TARGET_BOOT_DIR/ramdisk
 cd $TARGET_BOOT_DIR/ramdisk
 cpio -i < ../boot.img-ramdisk
 cd - > /dev/null
+if [ -a $TARGET_BOOT_DIR/ramdisk/init.superuser.rc ];then
+rm -rf $TARGET_BOOT_DIR/ramdisk/init.superuser.rc
+fi
 if [ -d overlay/boot/ramdisk ];then
 cp -rf overlay/boot/ramdisk/* $TARGET_BOOT_DIR/ramdisk/
 fi
